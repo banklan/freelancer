@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lato:wght@300;400&family=Nunito+Sans:wght@300&family=Raleway:wght@300;400&family=Tenor+Sans&family=Work+Sans:wght@300;400&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased!important;
+    background: transparent !important;
+}
+
+.landing_section{
+    margin: 3rem auto;
+    // width: 100vw;
+    // height: 100vh;
+
+    .subject{
+        text-align: center;
+        color: #03110c;
+        font-size: 44px;
+        font-weight: 300;
+        margin: 36px 0 18px;
+        line-height: 56px;
+    }
+}
+
